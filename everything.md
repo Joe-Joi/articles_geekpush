@@ -8,7 +8,7 @@ Everything是一款在Windows平台上可以免费使用的轻量级小工具，
 ## 为什么要使用Everthing
 虽然Windwos已经自带了搜索本地文件的功能，但那堪比被限速的百度云的速度让人实在无法忍受。Windows自带的搜索之所以这么慢的原因是它不仅仅搜索了文件名，同样对文件中的内容进行了搜索，而Everything只对文件名进行索引。
 
-![windows search](images\windowsSearch.png)
+![windows search](images/windowsSearch.png)
 
 但在我们绝大部分的使用场景中，都是基于文件名进行搜索而非内容。这时我们可以果断放弃Windows自带搜索，选择更快速的Everything。
 
@@ -19,7 +19,7 @@ Everything是一款在Windows平台上可以免费使用的轻量级小工具，
 * 官方下载地址：[请点击](https://www.voidtools.com/zh-cn/)
 * 选择好安装路径后，直接按照默认配置下一步，在高级选项时勾选“集成到资源管理器上下文菜单”。
 
-![settings](images\everythingSettings.png)
+![settings](images/everythingSettings.png)
 
 * 双击运行，大功告成。（初次使用扫描全盘文件会稍慢，以后再打开都可以做到秒开）
 
@@ -28,13 +28,13 @@ Everything是一款在Windows平台上可以免费使用的轻量级小工具，
 
 直接从桌面exe运行，在搜索框里输入你想要的文件即可，关键字、后缀名都是支持的。基本在你输入完内容那一刻就把结果展现出来了。
 
-![use2](images\useEverything2.png)
+![use2](images/useEverything2.png)
 
 **方法二：**
 
 你在windows资源管理器的某一层级目录下，点击右键选择搜索Everything，这样就是只在当前目录范围进行搜索
 
-![use](images\useEverything.png)
+![use](images/useEverything.png)
 
 ## 一些高级用法
 除了搜索速度快之外，支持一些进阶的搜索方法也是Everything的亮点。简单掌握这些搜索方法，对提高我们模糊搜索的效率非常有帮助。这里先介绍几个最常用的。
@@ -47,7 +47,7 @@ Everything是一款在Windows平台上可以免费使用的轻量级小工具，
 ```
 test .py
 ```
-![and](images\and.png)
+![and](images/and.png)
 **|(或)**
 
 当我们想要搜索包含多个关键字中任意一个的文件时，使用"|"符号即可。
@@ -56,7 +56,7 @@ test .py
 ```
 java|python
 ```
-![or](images\or.png)
+![or](images/or.png)
 
 **!（非）**
 
@@ -65,7 +65,7 @@ java|python
 ```
 a !b
 ```
-![not](images\not.png)
+![not](images/not.png)
 
 ### 通配符
 *和?是两个非常常用的通配符，前者代表任意个数的任意字符，后者表示一个任意字符。
@@ -73,20 +73,20 @@ a !b
 ```
 p*n
 ```
-![通配符*](images\tpf1.png)
+![通配符*](images/tpf1.png)
 
 以下搜索语句将会搜出以r开头以p结尾，且**中间只有一个字符**的文件/文件夹
 ```
 r?p
 ```
-![通配符?](images\tpf2.png)
+![通配符?](images/tpf2.png)
 ### 使用正则表达式
 Everything甚至支持使用正则表达式搜索。我们需要先确认正则表达式的设置被启用。(搜索中勾选启用正则表达式或者CTRL+R快捷键启用)
 
-![regrex](images\regrex.png)
+![regrex](images/regrex.png)
 
 正则语法使用起来虽然强大但是也会相对复杂，这里就不单独介绍。想要查看Everything支持的正则语法，大家可以从帮助-查看正则表达式语法中进行查阅。
 
-![regrex2](images\regrex2.png)
+![regrex2](images/regrex2.png)
 
 如果你一直在忍受Windows自带搜索的龟速，那么看完文章赶紧体验一下Everything带给你的老司机车速吧。
